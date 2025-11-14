@@ -1,0 +1,39 @@
+<svg width="840" height="340" viewBox="0 0 840 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffef9e"/>
+      <stop offset="50%" stop-color="#d4a43c"/>
+      <stop offset="100%" stop-color="#b8862b"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#00000055"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <text 
+    x="50%" 
+    y="45%" 
+    text-anchor="middle" 
+    font-size="140" 
+    fill="url(#gold)" 
+    font-family="serif" 
+    font-weight="700"
+    filter="url(#shadow)">
+    महाभारत
+  </text>
+
+  <text 
+    x="50%" 
+    y="80%" 
+    text-anchor="middle" 
+    font-size="90" 
+    fill="url(#gold)" 
+    font-family="serif"
+    letter-spacing="4"
+    filter="url(#shadow)">
+    MAHABHARAT
+  </text>
+</svg>
